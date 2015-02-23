@@ -17,11 +17,8 @@
     </author>
     
     <gap:config-file platform="winphone" parent="/Deployment" mode="replace">
-  	<Languages xmlns="">
-		<Language code="fr-FR"/>
-		<Language code="fr-CA"/>
-	</Languages>
-	<DefaultLanguage xmlns="" code="fr-FR" />
+  	<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
+  	</Deployment>
      </gap:config-file>
 
     <!--
