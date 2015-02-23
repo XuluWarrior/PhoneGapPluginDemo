@@ -16,7 +16,7 @@
         PhoneGap Team
     </author>
     
-    <gap:config-file platform="winphone" parent="/Deployment" mode="replace">
+    <gap:config-file platform="winphone" parent="/" mode="replace">
   	<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   	</Deployment>
      </gap:config-file>
